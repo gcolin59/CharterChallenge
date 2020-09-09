@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="CharterContent" extends="ContentNode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+	<interface>
+		<field id="outLocation" type="string" value="above" />
+		<field id="prevView" type="string" value="none" />
+		<field id="nextView" type="string" value="none" />
+		<field id="logo" type="string" value="" />
+		<field id="data" type="string" />
+		<field id="bgColor" type="color" />
+	</interface>
+	<script type="text/brightscript" uri="pkg:/components/Content/CharterContent.brs" />
+</component>

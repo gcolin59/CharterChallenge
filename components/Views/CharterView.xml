@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="CharterView" extends="Rectangle" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+	<interface>
+		<field id="content" type="node" />
+	</interface>
+	<script type="text/brightscript" uri="pkg:/components/common.brs" />
+	<script type="text/brightscript" uri="pkg:/components/Views/CharterView.brs" />
+	<children>
+		<poster id="bgPoster" />
+		<Label id="titleLabel" />
+		<Label id="outputLabel" />
+		<Button id="forwardButton" />
+		<Button id="backButton" />
+	</children>
+</component>

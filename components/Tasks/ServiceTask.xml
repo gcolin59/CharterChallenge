@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ServiceTask" extends="Task" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+	<interface>
+		<field id="fire" type="boolean" value="false" />
+		<field id="nav" type="string" value="" />
+	</interface>
+	<script type="text/brightscript" uri="pkg:/components/common.brs" />
+	<script type="text/brightscript" uri="pkg:/components/Tasks/ServiceTask.brs" />
+</component>

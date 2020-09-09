@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="MainScene" extends="Scene"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+	<interface>
+		<field id="runLoadAnimation" type="boolean" value="true" />
+		<field id="exitApp" type="boolean" value="false" />
+		<field id="serviceTask" type="node" />
+	</interface>
+	<script type="text/brightscript" uri="pkg:/components/MainScene.brs" />
+</component>
